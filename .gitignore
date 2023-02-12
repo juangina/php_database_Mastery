@@ -1,0 +1,6 @@
+._*
+.DS_Store
+.vscode
+/vendor
+/pdo_reference
+/dvdrental

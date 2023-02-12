@@ -1,0 +1,17 @@
+{
+    "name": "digitalcrafts-customer/php_sql",
+    "description": "A test package to test my composer skills",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Johnson",
+            "email": "ericrenee21@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "2.0.*",
+        "php": ">=7.3"
+    }
+}

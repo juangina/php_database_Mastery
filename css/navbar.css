@@ -1,0 +1,334 @@
+.row {
+
+margin:0;
+padding:0;
+
+}
+
+.logo {
+width: 90%;
+margin-top: 10px;
+
+}
+
+
+.navbar{
+
+border: none;
+height:auto;
+width: 100%;
+background: rgba(69, 72, 103, 0.1);					  
+}
+
+.nav li{
+			
+font-size:16px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+border: none !important;
+letter-spacing: 1.5px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 20px;
+padding-right: 20px;
+
+
+}
+
+
+		.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+
+  
+}
+
+.navbar .navbar-collapse {
+  text-align: right;
+
+}	
+
+
+		.nav a{
+					
+					font-family: 'Montserrat', sans-serif;
+					color: #ffffff !important;
+					
+			}	
+
+
+		.nav a:hover, .nav a:focus, .nav a:active, .nav a, .open>.nav a {
+			color: #ffffff !important;
+			
+
+		}
+
+.nav a:hover, .nav a:focus, .nav a:active{
+		background-color: #ffb701 !important;
+    color: #ffffff !important;
+	}
+
+
+
+.highlighted {
+
+background-color: #D95E61 !important;
+
+}
+
+
+ .navbar-toggle {
+	  background-color:white;
+	 
+  }
+
+
+		.icon-bar {
+
+
+			color:#ffffff !important;
+
+		}
+
+#footer {
+padding-top: 30px;
+padding-bottom: 20px;
+background-color: #733525;
+
+}
+
+
+#footer a{
+color: #ffffff;
+font-size:16px;
+font-family: 'Montserrat', sans-serif;
+padding-left: 70px;
+padding-right: 70px;
+font-weight: bold;
+letter-spacing: 1px; 
+}
+
+p {
+margin:0;
+padding: 0;
+
+
+}
+
+.copyright {
+color: #a5a5a5;
+font-size:14px;
+letter-spacing: 1px;  
+font-family: 'Montserrat', sans-serif;
+padding-bottom: 30px;
+background-color: #733525;
+}
+
+.social-links {
+
+text-align:center;
+}
+
+
+.exclusive-group {
+background-color: #47555C;
+
+
+}
+
+.exclusive-group p{
+padding-top: 20px;
+padding-bottom: 20px;
+letter-spacing: 1px;
+color: #ffffff;
+font-size:16px;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+#result {
+  font-size: 22px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+}
+
+.alert {
+
+font-size:22px !important;
+
+font-weight: bold !important;
+
+font-family: 'Montserrat', sans-serif !important; 
+
+text-align: center !important;
+
+}
+
+.exclusive-group a:hover {
+  background-color: #3a3a3a;
+  padding:5px;
+
+  } 
+
+/* Smartphones (portrait and landscape) ----------- */
+	@media only screen
+
+
+	and (max-width : 480px) {
+
+
+.navbar{
+
+background: rgba(69, 72, 103, 0.4);           
+}
+
+.nav li{
+		
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.logo {
+margin-top: -20px;
+
+}
+
+
+.navbar .navbar-collapse {
+  text-align: center;
+}	
+
+ .navbar-header{
+padding-bottom: 20px !important;
+padding-top: 20px !important;
+
+}
+
+
+#footer a{
+padding-right: 5px;
+padding-left: 5px;
+
+}
+
+
+
+}
+
+
+@media only screen
+	and (min-width : 480px)
+	and (max-width : 1024px) {
+
+.navbar{
+
+background: rgba(69, 72, 103, 0.3);           
+}
+
+.nav li{
+		
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.logo {
+margin-top: -20px;
+
+}
+
+
+.navbar .navbar-collapse {
+  text-align: center;
+}	
+
+ .navbar-header{
+padding-bottom: 20px !important;
+padding-top: 20px !important;
+  }
+
+#footer a{
+padding-right: 20px;
+padding-left: 20px;
+
+}
+
+
+}
+
+
+
+
+		/* iPads (landscape) ----------- */
+@media only screen 
+	and (min-width : 768px) 
+and (max-width : 1200px) 
+and (orientation : landscape) {
+
+.nav li{
+		
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.logo {
+margin-top: -20px;
+
+}
+
+
+.navbar .navbar-collapse {
+  text-align: center;
+}	
+
+ .navbar-header{
+padding-bottom: 20px !important;
+padding-top: 20px !important;
+  }
+
+
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+	  background-color:white;
+	  margin-right:0px;
+  }
+ 
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+overflow: visible !important;
+      
+  }
+
+  .navbar-nav li {
+      float: none !important;
+	  text-align:center;
+	  
+  }
+  .navbar-nav  li a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+       
+  }
+  .collapse.in{
+      display:block !important;
+					
+  }
+
+}
+  
